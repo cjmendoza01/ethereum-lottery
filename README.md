@@ -1,4 +1,4 @@
-### Simple Lottery
+# Simple Lottery
 
  * Player Tier starts to buy tickets(Function to buy ticket/s)
 
@@ -12,44 +12,53 @@
 
 ____
 
-### RNG Lottery
+# RNG Lottery
 
-##H3 Customer Tier
+### Customer Tier
+```
 Start
 Choose draw schedule of the lottery
 Buy ticket
+```
 
-##H3 Owner Tier
+### Owner Tier
+```
 Start
 Set ticket time and schedule of lottery
 Set revealing time and schedule of lottery
 Draw winner
 Transferring of winners prize
+```
 
-##H3 Chaincode Tier
+### Chaincode Tier
+```
 Check Schedule and time of lottery
 Submit commitment (if any ticket was bought)
 Revealing period
 Get randomized winning numbers
-
+```
 
 ### Recurring Lottery
 
-##H3 Customers Tier
+### Customers Tier
+```
 Start
 Set numbers of tickets to buy
 Buy tickets
+```
 
-##H3 Owner Tier
+### Owner Tier
+```
 Start
 Set lottery duration
 Set ticket price
 Draw winner
 Transfer prize to winner
-
-##H3 Chaincode
+```
+### Chaincode
+```
 Check round expiration
 Get list of ticket buyers
 Get randomized winning numbers
-
+```
 ___
