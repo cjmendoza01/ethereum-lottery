@@ -38,7 +38,7 @@ Revealing period
 Get randomized winning numbers
 ```
 
-### Recurring Lottery
+# Recurring Lottery
 
 ### Customers Tier
 ```
@@ -62,3 +62,31 @@ Get list of ticket buyers
 Get randomized winning numbers
 ```
 ___
+
+# Powerball Lottery
+
+### Customer Tier
+```
+Start
+Select lottery number
+buy tickets
+Prize will be given to account once he/she wins with her tickets
+```
+
+### Owner Tier
+```
+Start
+Verify tickets
+Draw winning ticket
+Verify winner
+Give prize to the winner
+```
+
+### Chaincode Tier
+```
+Verify Round expiry
+Update tickets
+Start lottery draw numbers
+Check if count matches
+Calculate number of matches
+```
