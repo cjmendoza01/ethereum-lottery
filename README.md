@@ -41,6 +41,7 @@ Submit commitment (if any ticket was bought)
 Revealing period
 Get randomized winning numbers
 ```
+___
 
 # Recurring Lottery
 
